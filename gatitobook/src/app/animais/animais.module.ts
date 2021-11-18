@@ -6,10 +6,11 @@ import { AnimaisRoutingModule } from './animais-routing.module';
 import { ListaAnimaisComponent } from './lista-animais/lista-animais.component';
 import { AnimalComponent } from './animal/animal.component';
 import { GradeFotosAnimaisComponent } from './grade-fotos-animais/grade-fotos-animais.component';
+import { DetalheAnimalComponent } from './detalhe-animal/detalhe-animal.component';
 
 
 @NgModule({
-  declarations: [ListaAnimaisComponent, AnimalComponent, GradeFotosAnimaisComponent],
+  declarations: [ListaAnimaisComponent, AnimalComponent, GradeFotosAnimaisComponent, DetalheAnimalComponent],
   imports: [
     CommonModule,
     AnimaisRoutingModule,
@@ -17,3 +18,4 @@ import { GradeFotosAnimaisComponent } from './grade-fotos-animais/grade-fotos-an
   ]
 })
 export class AnimaisModule { }
+
